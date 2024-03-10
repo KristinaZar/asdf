@@ -1,0 +1,495 @@
+/* roboto-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v30-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/inter-v13-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/nunito-sans-v15-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v13-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* source-sans-3-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/source-sans-3-v15-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/open-sans-v40-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-sans-v14-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.button-height {
+  position: relative;
+  width: 154px;
+  height: 42px;
+  top: 161px;
+  left: 701px;
+  border-radius: 8px;
+  background: #eafff9;
+  border: 0.3px solid #62ffd3;
+  box-shadow: 0px 0px 32px 0px #d0ede5;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #26ecb5;
+}
+h2 {
+  position: absolute;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+  color: #3c3c3c;
+  width: 614px;
+  height: 140px;
+  box-sizing: border-box;
+  width: 614px;
+  height: 140px;
+  top: 246px;
+  left: 105px;
+}
+h2 span {
+  color: blue;
+}
+h3 {
+  position: absolute;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #667085;
+  width: 479px;
+  height: 84px;
+  box-sizing: border-box;
+  top: 395px;
+  left: 104px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+body {
+  min-height: 1200px;
+  background: linear-gradient(
+    180deg,
+    #dffff4 0%,
+    rgba(245, 242, 242, 0) 111.4%
+  );
+}
+
+.button {
+  position: absolute;
+  display: inline;
+  width: 151px;
+  height: 50px;
+  top: 517px;
+  left: 105px;
+  border-radius: 10px;
+  padding: 19px, 147px, 19px, 147px;
+  gap: 10px;
+  background: linear-gradient(95.57deg, #3d7fff 0.98%, #62ffd3 100%);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+.star::before {
+  content: url(../img/Group.svg);
+  position: relative;
+  width: 13.39px;
+  height: 13.39px;
+  top: 1.31px;
+  left: 1.31px;
+}
+.image1 {
+  position: absolute;
+  width: 708.44px;
+  height: 507.04px;
+  top: 150px;
+  left: 800px;
+}
+
+.image {
+  position: absolute;
+  width: 750px;
+  height: 150px;
+  top: 728px;
+  left: 196px;
+  border-radius: 20px;
+}
+.imginfo {
+  position: absolute;
+  width: 350px;
+  height: 90px;
+  top: 300px;
+}
+.Insta {
+  position: absolute;
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 8px;
+  left: 105px;
+  color: blue;
+}
+.Insta::after {
+  content: "+";
+  color: #38dcae;
+}
+.stroka {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px 10px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 50%;
+  top: 30px;
+  left: 381px;
+  position: relative;
+  color: #3c3c3c;
+}
+th {
+  width: 130px;
+  text-align: center;
+}
+.Home {
+  text-decoration: underline;
+  color: #26ecb5;
+}
+.login {
+  position: relative;
+  font-family: Inter;
+  font-weight: 600;
+  text-align: center;
+  width: 81px;
+  height: 37px;
+  top: 27px;
+  left: 1252px;
+  border-radius: 6px;
+  background-color: #3d7fff;
+  color: white;
+  border: none;
+}
+.information {
+  position: relative;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3c3c3c;
+  top: 440px;
+  left: 300px;
+}
+.information::before {
+  content: url(../img/pleer.svg);
+}
+.statistika {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  position: relative;
+  width: 1048px;
+  top: 728px;
+  left: 196px;
+  border-radius: 20px;
+}
+h4 {
+  font-family: Source Sans 3;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3c3c3c;
+  margin: 0;
+}
+h5 {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #667085;
+  height: 22px;
+  margin: 0;
+}
+.Engagements {
+  display: flex;
+}
+.Engagements::before {
+  content: url(../img/static.svg);
+}
+.Satisfied {
+  display: flex;
+}
+.Satisfied::before {
+  content: url(../img/smile.svg);
+}
+.Return {
+  display: flex;
+}
+.Return::before {
+  content: url(../img/box.svg);
+}
+.Good {
+  display: flex;
+}
+.Good::before {
+  content: url(../img/star.svg);
+}
+.ellipse2 {
+  position: absolute;
+  width: 649px;
+  height: 649px;
+  top: 316px;
+  left: -280px;
+  color: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(151, 255, 230, 0.5) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+}
+.ellipse3 {
+  position: absolute;
+  width: 651px;
+  height: 414px;
+  top: 461px;
+  left: -93px;
+}
+.ellipse4 {
+  position: absolute;
+  width: 650px;
+  height: 638px;
+  top: 52px;
+  left: 423px;
+}
+.Plans {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  position: relative;
+  top: 800px;
+  left: 602px;
+}
+.content {
+  display: block;
+  position: relative;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 556.05px;
+  height: 50.65px;
+  top: 700px;
+  left: 443px;
+  color: #667085;
+}
+.prise {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 1228.54px;
+  height: 628.6px;
+  top: 750px;
+  left: 107px;
+}
+.service {
+  position: relative;
+  display: inline-block;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a8abb3;
+  left: -50px;
+  top: -100px;
+  width: 100px;
+  height: 30px;
+}
+.cost {
+  position: relative;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3c3c3c;
+  left: 30px;
+  top: -100px;
+  width: 100px;
+  height: 30px;
+}
+.billed {
+  position: relative;
+  font-family: DM Sans;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #81838c;
+  left: 30px;
+  top: -130px;
+  width: 180px;
+}
+
+.pro {
+  width: 287.38px;
+  height: 451.6px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px 0px #71717140;
+  border-radius: 10px;
+  border-color: #ffffff58;
+}
+.pro:hover {
+  background-color: #3d7fff;
+}
+.pro:hover .service {
+  background-color: #3d7fff;
+  color: white;
+}
+.pro:hover .cost {
+  background-color: #3d7fff;
+  color: white;
+}
+.pro:hover .billed {
+  background-color: #3d7fff;
+  color: white;
+}
+.advanced {
+  width: 287.38px;
+  height: 451.6px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px 0px #71717140;
+  border-radius: 10px;
+  border-color: #ffffff58;
+}
+.advanced:hover {
+  background-color: #3d7fff;
+}
+.advanced:hover .service {
+  background-color: #3d7fff;
+  color: white;
+}
+.advanced:hover .cost {
+  background-color: #3d7fff;
+  color: white;
+}
+.advanced:hover .billed {
+  background-color: #3d7fff;
+  color: white;
+}
+.interprice {
+  width: 287.38px;
+  height: 451.6px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px 0px #71717140;
+  border-radius: 10px;
+  border-color: #ffffff58;
+}
+.interprice:hover {
+  background-color: #3d7fff;
+}
+.interprice:hover .service {
+  background-color: #3d7fff;
+  color: white;
+}
+.interprice:hover .cost {
+  background-color: #3d7fff;
+  color: white;
+}
+.interprice:hover .billed {
+  background-color: #3d7fff;
+  color: white;
+}
+.interprice2 {
+  width: 287.38px;
+  height: 451.6px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px 0px #71717140;
+  border-radius: 10px;
+  border-color: #ffffff58;
+}
+.interprice2:hover {
+  background-color: #3d7fff;
+}
+.interprice2:hover .service {
+  background-color: #3d7fff;
+  color: white;
+}
+.interprice2:hover .cost {
+  background-color: #3d7fff;
+  color: white;
+}
+.interprice2:hover .billed {
+  background-color: #3d7fff;
+  color: white;
+}
