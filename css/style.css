@@ -1,3 +1,7 @@
+/*  Будет хорошо, если вынесешь подключение шрифтов в отдельный файл, а сюда их только импортируешь 
+    - разбиение на файлы делает код читабельным
+ */
+
 /* roboto-300 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -63,6 +67,18 @@
   src: url("../fonts/dm-sans-v14-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+/* 
+  Общее: 
+  1) практически нигде на странице не нужно позиционирвание через absoltue или relative
+  2) не задаем жестко фиксированную высоту и ширину элементам за исключением картинок 
+    (есть еще некоторые редкие исключения - здесь такие в глаза не бросаются)
+  3) Не стилизуем голые теги (h2, span и т.д.) - только через классы
+  4) Стилизация голых тегов допустима только для общих стилей (например - добавить font-family
+    к html)
+  5) Хорошо будет вынести повторяющиеся коды цветов в css-переменные (возможно позже)
+  6) 
+ */
+
 .button-height {
   position: relative;
   width: 154px;
@@ -114,6 +130,7 @@ h3 {
   letter-spacing: -0.015em;
   text-align: left;
 }
+/* зачем min-height? */
 body {
   min-height: 1200px;
   background: linear-gradient(
@@ -253,6 +270,7 @@ th {
   border-radius: 20px;
 }
 h4 {
+  /* если название font-family состоит из больше чем 1 слова, то без кавычек не применится */
   font-family: Source Sans 3;
   font-size: 34px;
   font-weight: 700;
