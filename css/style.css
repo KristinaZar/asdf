@@ -201,12 +201,13 @@ body {
   top: 8px;
   left: 105px;
   color: blue;
+  margin: 0px;
 }
 .Insta::after {
   content: "+";
   color: #38dcae;
 }
-.stroka {
+.navigation {
   display: flex;
   justify-content: space-between;
   gap: 50px 10px;
@@ -220,13 +221,16 @@ body {
   top: 30px;
   left: 381px;
   position: relative;
+}
+a {
+  text-decoration: none;
   color: #3c3c3c;
 }
 th {
   width: 130px;
   text-align: center;
 }
-.Home {
+a:hover {
   text-decoration: underline;
   color: #26ecb5;
 }
@@ -237,7 +241,6 @@ th {
   text-align: center;
   width: 81px;
   height: 37px;
-  top: 27px;
   left: 1252px;
   border-radius: 6px;
   background-color: #3d7fff;
@@ -255,11 +258,12 @@ th {
   color: #3c3c3c;
   top: 440px;
   left: 300px;
+  width: 300px;
 }
 .information::before {
   content: url(../img/pleer.svg);
 }
-.statistika {
+.statistics {
   display: flex;
   justify-content: space-evenly;
   flex-grow: 1;
@@ -271,7 +275,7 @@ th {
 }
 h4 {
   /* если название font-family состоит из больше чем 1 слова, то без кавычек не применится */
-  font-family: Source Sans 3;
+  font-family: "Source Sans 3";
   font-size: 34px;
   font-weight: 700;
   line-height: 43px;
@@ -510,4 +514,8 @@ h5 {
 .interprice2:hover .billed {
   background-color: #3d7fff;
   color: white;
+}
+.header {
+  display: flex;
+  justify-content: center;
 }

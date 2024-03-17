@@ -23,52 +23,57 @@
       программ которые читают вслух страницы для слабовидящих, так что если эта картинка не имеет 
       значения, то вписывать ей в альт ничего не надо
      -->
-    <img class="ellipse2" src="img/Ellipse2.svg" alt="элипс" />
-    <img class="ellipse3" src="img/Ellipse3.svg" alt="'эллипс3" />
-    <img class="ellipse4" src="img/Ellipse4.svg" alt="'эллипс4" />
+    <img class="ellipse2" src="img/Ellipse2.svg" alt="" />
+    <img class="ellipse3" src="img/Ellipse3.svg" alt="" />
+    <img class="ellipse4" src="img/Ellipse4.svg" alt="" />
     <!-- 2 -->
     <!-- h1.Insta div.stroka и button.login стоит обернуть в один тег и выровнять по вертикали.
       В какой блок?)
     -->
-    <h1 class="Insta">Insta</h1>
-    <!-- 3 -->
-    <!-- Вместо дива тут лучше использовать nav - будет семантично, т.к. в этом блоке находятся
+    <header>
+      <h1 class="Insta">Insta</h1>
+      <!-- 3 -->
+      <!-- Вместо дива тут лучше использовать nav - будет семантично, т.к. в этом блоке находятся
       навигационные элементы страницы
      -->
-    <div class="stroka">
-      <!-- 4 -->
-      <!-- Все эти дивы должны быть ссылками. Класс "Home" тут не нужен, т.к. на макете было 
+      <nav class="navigation">
+        <!-- 4 -->
+        <!-- Все эти дивы должны быть ссылками. Класс "Home" тут не нужен, т.к. на макете было 
         показано состояние при наведении на ссылку
        -->
-      <div class="Home">Home</div>
-      <div>About Us</div>
-      <div>Instagram Like</div>
-      <div>Blogs</div>
-      <div>Contact Us</div>
-    </div>
-    <button class="login">Login</button>
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Instagram Like</a>
+        <a href="">Blogs</a>
+        <a href="">Contact Us</a>
+      </nav>
+      <button class="login">Login</button>
+    </header>
     <!-- 5 -->
     <!-- Элементы, начиная с button-height по button.button должны быть объединены в общий 
       семантичный блок (какой подходит?) 
       Сейчас эти элементы позиционированны через absoltue или relative, без чего явно можно
       обойтись если их объединить общим родителем.
      -->
-    <button class="button-height">
-      <span class="star"> Be Celebrity</span>
-    </button>
-    <h2>Boost Your Instagram Page By <span>A Tricky way </span></h2>
-    <!-- про alt - см. замечение 1, про название классов - общее замечание 4 -->
-    <img class="image1" src="img/phone.svg" alt="веселая картинка" />
-    <div class="imagefun"></div>
-    <h3>
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-      Velit officia consequat duis enim velit mollit. Exercitation veniam
-      consequat sunt nostrud amet.
-    </h3>
-    <button class="button">Buy follower</button>
-    <div class="information">More information</div>
+    <main>
+      <button class="button-height">
+        <span class="star"> Be Celebrity</span>
+      </button>
+      <h2>Boost Your Instagram Page By <span>A Tricky way </span></h2>
+      <!-- про alt - см. замечение 1, про название классов - общее замечание 4 -->
+      <img class="image1" src="img/phone.svg" alt="" />
+      <div class="imagefun"></div>
+      <h3>
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </h3>
+      <button class="button">Buy follower</button>
+      <div class="information">More information</div>
+    </main>
+
     <!-- про название классов - общее замечание 2 -->
-    <div class="statistika">
+    <div class="statistics">
       <!-- 6 -->
       <!-- Engagements, Satisfied, Return, Good - однотипные блоки, нужно стилизовать через 1
         класс, а не плодить 4 с одними стилями
